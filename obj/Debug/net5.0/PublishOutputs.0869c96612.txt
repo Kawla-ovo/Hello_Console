@@ -1,0 +1,5 @@
+C:\Code\bin\Debug\net5.0\publish\Code.exe
+C:\Code\bin\Debug\net5.0\publish\Code.dll
+C:\Code\bin\Debug\net5.0\publish\Code.deps.json
+C:\Code\bin\Debug\net5.0\publish\Code.runtimeconfig.json
+C:\Code\bin\Debug\net5.0\publish\Code.pdb
