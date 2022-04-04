@@ -17,7 +17,8 @@
 4- Play some console mini-games I made.  
 5- Go to the wallpaper website to download wallpapers.  
 6- Play web games.  
-7- I wrote something for you.
+7- I wrote something for you.  
+8- Daily sentence
 
 
    

@@ -72,7 +72,7 @@ namespace Code
                     Console.ForegroundColor = ConsoleColor.White;
                     Console.Clear();
                     Console.WriteLine("███╗   ███╗███████╗███╗   ██╗██╗   ██╗\n████╗ ████║██╔════╝████╗  ██║██║   ██║\n██╔████╔██║█████╗  ██╔██╗ ██║██║   ██║\n██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║\n██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝\n╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝ ");
-                    Console.WriteLine("So what do you want to do?\n1...............How old are you,kids?\n2...............I want to know when is it?\n3...............Open some websites\n4...............Play some games\n5...............Get beautiful wallpapers\n6...............Kawla write something for you");
+                    Console.WriteLine("So what do you want to do?\n1...............How old are you,kids?\n2...............I want to know when is it?\n3...............Open some websites\n4...............Play some games\n5...............Get beautiful wallpapers\n6...............Kawla write something for you\n7...............Give me a good sentence!");
                     string Str5 = Console.ReadLine();//这里做几个机器人可用的功能
                     if(Str5 == "1" )
                     {
@@ -327,6 +327,46 @@ namespace Code
                         Console.ReadKey();
                         Console.WriteLine("\fHello!My name is Kawla!\nI am a senior high school student in Hunan China.\nI am glad to tell something about me:\nI dream to be a compter programmer,so I always learned it,such as C#,Unity,Python.\nThis is my new project,so I make it carefully.\nYou know,I always make many projects,but they failed.");
                     }
+                    else if(Str5 == "7")
+                    {
+                        Random dice = new Random();
+                        int num = dice.Next(0,10);
+                        switch(num)
+                        {
+                            case 1 :
+                                Console.WriteLine("Never give up, Never lose the opportunity to succeed\n\n");
+                                break;
+                            case 2:
+                                Console.WriteLine(" Never allow yourself to get discouraged and think that your life is insignificant and can’t make a change.\n\n");
+                                break;
+                            case 3:
+                                Console.WriteLine("Make yourself a better person and know who you are before you try and know someone else and expect them to know you.\n\n");
+                                break;
+                            case 4:
+                                Console.WriteLine("Victory won't come to me unless I go to it.\n\n");
+                                break;
+                            case 5:
+                                Console.WriteLine("If they throw stones at you， don’t throw back， use them to build your own foundation instead.\n\n");
+                                break;
+                            case 6:
+                                Console.WriteLine("Truth needs no colour; beauty ， no pencil.\n\n");
+                                break;
+                            case 7:
+                                Console.WriteLine("Not everything that is faced can be changed, but nothing can be changed until it is faced.\n\n");
+                                break;
+                            case 8:
+                                Console.WriteLine(" One's real value first lies in to what degree and what sense he set himself.\n\n");
+                                break;
+                            case 9:
+                                Console.WriteLine("Real dream is the other shore of reality.\n\n");
+                                break;
+                            case 10:
+                                Console.WriteLine("Never underestimate your power to change yourself!\n\n");
+                                break;
+                                default:
+                                Console.WriteLine("Error!");
+                                break;
+                    }
 
 
                     Console.WriteLine("There's nothing here, do you want to?\n1...............Go back to menu\n2...............Restart the app\n3...............Quit");
@@ -355,7 +395,7 @@ namespace Code
             Console.WriteLine(" ██████╗  ██████╗  ██████╗ ██████╗ ██████╗ ██╗   ██╗███████╗██╗\n██╔════╝ ██╔═══██╗██╔═══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝██╔════╝██║\n██║  ███╗██║   ██║██║   ██║██║  ██║██████╔╝ ╚████╔╝ █████╗  ██║\n██║   ██║██║   ██║██║   ██║██║  ██║██╔══██╗  ╚██╔╝  ██╔══╝  ╚═╝\n╚██████╔╝╚██████╔╝╚██████╔╝██████╔╝██████╔╝   ██║   ███████╗██╗\n ╚═════╝  ╚═════╝  ╚═════╝ ╚═════╝ ╚═════╝    ╚═╝   ╚══════╝╚═╝");
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
-
+            }
         }
     }
 }
